@@ -1,0 +1,7 @@
+To upload file to the csf3 DW directory:
+
+rsync -rlvz file username@csf3.itservices.manchester.ac.uk:~/scratch/DW
+
+To download a file:
+
+rsync -avz username@csf3.itservices.manchester.ac.uk:~/scratch/DW/Data/file . 
